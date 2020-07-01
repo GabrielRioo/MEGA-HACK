@@ -13,10 +13,12 @@ Aplicativo voltado para interação com pessoas. Ao comprar um produto AMBEV, re
 - [ ] Pagina para o Chat
 - [ ] Pagina de Like e Deslike
 - [ ] Pagina para o Mapa
+- [ ] Pagina de login
 <br>
 
 **Funcionalidades:** <br>
 - [ ] Chat
+- [ ] Loguin(autenticação)
 - [ ] Mapa para localizar as geladeiras.
 - [ ] Like e Deslike 
 - [ ] Mostrar pessoa individual ou pessoa em grupo (fotinho de cada)

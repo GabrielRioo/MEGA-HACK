@@ -14,6 +14,7 @@ Aplicativo voltado para interação com pessoas. Ao comprar um produto AMBEV, re
 - [ ] Pagina de Like e Deslike
 - [ ] Pagina para o Mapa
 - [ ] Pagina de login
+- [ ] Pagina de Compras
 <br>
 
 **Funcionalidades:** <br>

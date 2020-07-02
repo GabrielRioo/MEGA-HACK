@@ -23,3 +23,4 @@ Aplicativo voltado para interação com pessoas. Ao comprar um produto AMBEV, re
 - [ ] Mapa para localizar as geladeiras.
 - [ ] Like e Deslike 
 - [ ] Mostrar pessoa individual ou pessoa em grupo (fotinho de cada)
+

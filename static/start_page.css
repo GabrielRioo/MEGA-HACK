@@ -4,12 +4,22 @@
     box-sizing: 0;
 }
 
-body {
-    background-color: #FF9F43;
+figure {
+    margin-bottom: 30px;
 }
 
-div.ambev_logo {
-    position: absolute;
-    top: 270px;
-    left: 90px;
+body {
+    background-color: #F7981D;
+    height: 100vh;
+}
+
+div.imagens {
+    height: 100vh;
+    margin-top: 40px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    
+    
 }

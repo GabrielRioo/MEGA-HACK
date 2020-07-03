@@ -15,15 +15,18 @@
     <form id="chat">
         <input type="text" name="username" placeholder="Digite seu Usuário">
         <div class="messages"></div>
-        <input type="text" name="message" placeholder="Digite sua Mensagem">
-        <button type="submit">Enviar</button>
+        <div class="write">
+            <input class="size-input" type="text" name="message" placeholder="Digite sua Mensagem">
+            <button type="submit"></button>
+            <button class="plus">+</button>
+        </div>
     </form>
 
     <script type="text/javascript">
     var socket = io('http://localhost:3000');
 
     function renderMessage(message) {
-        $('.messages').append('<div class="message"><strong>'+ message.author +'</strong>: '+ message.message +'</div');
+        $('.messages').append('<div class="message"><strong>'+ message.author +'</strong>: '+ message.message +'</div>');
     }
 
     socket.on('receivedMessage', function(message) {

@@ -32,7 +32,7 @@ header.head {
 figcaption {
     position: fixed;
     top: 20px;
-    left: 6em;
+    left: 5em;
     font-size: 20px;
     font-weight: bold;
     color: #FFFFFF;
@@ -86,11 +86,12 @@ img.voz {
 input.search {
     margin-top: 130px;
     margin-bottom: 50px;
-    width: 22em;
+    width: 20em;
     height: 3em;
     border-radius: 8px;
     border: 1px solid rgb(134, 134, 134);
     padding-left: 50px;
+    font-size: 15px;
 }
 
 div.grid {

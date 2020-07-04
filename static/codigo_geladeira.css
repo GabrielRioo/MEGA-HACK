@@ -14,18 +14,46 @@ a {
 }
 
 header.head {
-    position: relative;
+    position: fixed;
+    top:-14.41px;
 }
 
-figure.img-header {
-    text-align: center;
+figcaption {
+    position: fixed;
+
+    top: 20px;
+    font-size: 20px;
+    font-weight: bold;
+    color: #FFFFFF;
     
 }
+figure.img-header {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
 
-figure.img-header-absolute {
-    position: absolute;
-    top: 56px; 
-    left: 34px;
+figcaption span {
+    text-align: center;
+}
+
+img.left-arrow {
+    position: fixed;
+    top: 18px;
+    left: 20px;
+}
+
+img.dots-vertical {
+    position: fixed;
+    top: 18px;
+    left: 350px;
+}
+
+div.flex {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin-top: 250px;
 }
 
 form.codigo-geladeira {
@@ -33,7 +61,6 @@ form.codigo-geladeira {
     flex-direction: row;
     justify-content: space-around;
     margin-top: 10px;
-    
     padding: 20px;
 }
 
@@ -46,7 +73,7 @@ input {
 }
 
 p.informacao {
-    position: absolute;
+    
     text-align: center;
     font-size: 12px;
     left: 25px;
@@ -59,36 +86,15 @@ button.button-confirmar {
     width: 219px;
     height: 49px;
     left: 78px;
-    top: 355px;
+    top: 600px;
     border-radius: 6px;
     border: none;
     color: #fff;
-    background-color: #F7981D;
+    background-color: #263E7F;
       
 }
 
 
-button.button-confirmar + figure {
-    margin-top: 100px;
-    margin-bottom: 15px;
-}
 
-p.login {
-    margin-bottom: 2em;
-    text-align: center;
-    color: #475062;
-}
 
-button.button-criar-conta {
-    position: absolute;
-    width: 219px;
-    height: 49px;
-    left: 78px;
-    top: 590px;
-    border-radius: 6px;
-    border: none;
-    color: #BC042B;
-    background-color: #FFFFFF;
-    box-shadow: 0px 2px 5px rgb(110, 110, 110);
 
-}

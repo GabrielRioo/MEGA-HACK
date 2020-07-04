@@ -23,12 +23,11 @@ a {
 header.head {
     position: fixed;
     top:-14.41px;
-    
-    
 }
 
 figcaption {
     position: fixed;
+
     top: 20px;
     font-size: 20px;
     font-weight: bold;
@@ -54,7 +53,7 @@ img.left-arrow {
 img.dots-vertical {
     position: fixed;
     top: 18px;
-    right: 20px;
+    left: 350px;
 }
 
 p.login {

@@ -20,15 +20,50 @@ a {
     text-decoration: none;
 }
 
+header.head {
+    position: fixed;
+    top:-14.41px;
+    
+    
+}
+
+figcaption {
+    position: fixed;
+    top: 20px;
+    font-size: 20px;
+    font-weight: bold;
+    color: #FFFFFF;
+    
+}
+figure.img-header {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+figcaption span {
+    text-align: center;
+}
+
+img.left-arrow {
+    position: fixed;
+    top: 18px;
+    left: 20px;
+}
+
+img.dots-vertical {
+    position: fixed;
+    top: 18px;
+    right: 20px;
+}
+
 p.login {
     font-weight: bold;
     color: #868686;
 }
 
 
-div.head {
 
-}
 
 p.login {
     margin-bottom: 2em;
@@ -43,18 +78,22 @@ p.informacao-senha {
 }
 
 p.informacao {
-    position: absolute;
     text-align: center;
     font-size: 10px;
-    left: 25px;
-    right: 25px;
-    top: 540px;
+    margin-top: 20px;
+    margin-left: 25px;
+    margin-right: 25px;
 }
 
+form {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
 
 input.input-text {
-    display: flex;
-    justify-content: center;
+    
     margin: auto;
     width: 25em;
     height: 3em;
@@ -65,14 +104,13 @@ input.input-text {
 }
 
 button.button-cadastrar {
-    position: absolute;
+    margin-top: 20px;
     width: 219px;
     height: 49px;
-    left: 78px;
-    top: 470px;
+    
     border-radius: 6px;
     border: none;
     color: #fff;
-    background-color: #FF9F43;
+    background-color: #F7981D ;
 
 }

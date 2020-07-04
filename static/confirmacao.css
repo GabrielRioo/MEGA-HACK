@@ -73,6 +73,7 @@ p.confirmacao {
     line-height: 40px;
 }
 
+
 button.button-sim {
     position: absolute;
     top: 515px;
@@ -89,7 +90,7 @@ button.button-nao {
     position: absolute;
     width: 219px;
     height: 49px;
-    left: 78px;
+    
     top: 590px;
     border-radius: 6px;
     border: none;

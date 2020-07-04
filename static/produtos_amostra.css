@@ -1,0 +1,153 @@
+:hoot {
+    --red: #BC042B;
+    --yellow: #F7981D;
+    --blue: #21409A;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: 0;
+}
+
+body {
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+a {
+    text-decoration: none;
+    color: rgb(0, 0, 0);
+    font-weight: bold;
+}
+
+
+
+header.head {
+    position: fixed;
+    top:-14.41px;
+    
+    
+}
+
+figcaption {
+    position: fixed;
+    top: 20px;
+    left: 7.5em;
+    font-size: 20px;
+    font-weight: bold;
+    color: #FFFFFF;
+    
+}
+figure.img-header {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+figcaption span {
+    text-align: center;
+}
+
+img.left-arrow {
+    position: fixed;
+    top: 18px;
+    left: 20px;
+}
+
+img.dots-vertical {
+    position: fixed;
+    top: 18px;
+    left: 350px;
+}
+
+div.flex {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 70px;
+    height: 68vh;
+    
+}
+
+
+
+div.grid {
+    display: grid;
+    gap: 10px;
+    grid-template-columns: 50px 100px 50px 50px;
+    align-items: center;
+    border: 1px solid #F6F6F8;
+    border-radius: 12px;
+    background-color: #F6F6F8;
+    width: 21em;
+    height: 5em;
+    margin-bottom: 20px;
+    position: relative;
+}
+
+p.nome_produto {
+    font-size: 15px;
+    font-weight: 600;
+    color: #596273;
+}
+
+img.close_button {
+    position: absolute;
+    right: -5px;
+    top: -5px;
+    width: 22px;
+    
+}
+
+span.quantidade {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border: 1px solid #818A99;
+    border-radius: 8px;
+    width: 3em;
+    height: 2.5em;
+}
+
+span.preco {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border: 1px solid #818A99;
+    border-radius: 8px;
+    width: 6em;
+    height: 2.5em;
+}
+
+div.pagamento {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border: 1px solid rgb(177, 177, 177);
+    border-radius: 8px;
+    height: 60px;
+    margin-left: 15px;
+    margin-right: 15px;
+}
+
+p.total {
+    margin-right: 200px;
+    
+}
+
+
+button {
+    position: absolute;
+    bottom: 20px;
+    width: 219px;
+    height: 49px;
+    border-radius: 6px;
+    border: none;
+    color: #fff;
+    background-color: #263E7F ;
+    box-shadow: 0px 2px 5px rgb(110, 110, 110);
+}
+
+
+

@@ -20,8 +20,6 @@ div.imagens {
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    
-    
 }
 
 a {
@@ -37,4 +35,5 @@ a {
     border: 1px solid #596273 ;
     background-color: #FFFFFF;
 }
+
 

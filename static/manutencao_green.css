@@ -10,44 +10,42 @@
     box-sizing: 0;
 }
 
-a {
-    color: #F7981D;
-    font-weight: bold;
-    text-decoration: none;
-}
-
 body {
     font-family: Arial, Helvetica, sans-serif;
-    
+    background-color: #06A088;
 }
+
 
 header.head {
     position: fixed;
     top:-14.41px;
-    
-    
 }
 
-div.flex {
+img.left-arrow {
+    position: fixed;
+    top: 18px;
+    left: 20px;
+}
+
+img.dots-vertical {
+    position: fixed;
+    top: 25px;
+    left: 330px;
+}
+
+form {
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    height: 100vh;
-    margin-top: 80px;
+    height: 90vh;
 }
 
-button {
-    margin-bottom: 20px;
-    margin-top: 30px;
-    width: 219px;
-    height: 49px;
-    border-radius: 6px;
-    border: none;
+p.informacao {
+    font-size: 20px;
+    text-align: center;
+    font-weight: bold;
     color: #fff;
-    background-color: #33535F;
-    box-shadow: 0px 2px 5px rgb(110, 110, 110);
+    margin-bottom: 50px;
 }
-
-
 

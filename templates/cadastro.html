@@ -5,31 +5,34 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="/static/cadastro.css">
+
     <title>AMBEV</title>
+    
+    <script src="/scripts/auto-complete.js"></script>
 </head>
 
 <body>
     <header class="head">
         <figure class="img-header">
-            
+
             <figcaption></span><span>Cadastre-se</span></figcaption>
             <img src="/media/yellow_header_small.svg" alt="Header image">
         </figure>
         <img class="left-arrow" src="/media/arrow-right.svg" alt="Seta para esquerda">
-        <img class="dots-vertical"src="/media/dots-vertical.svg" alt="configuraçoes">
-        
+        <img class="dots-vertical" src="/media/dots-vertical.svg" alt="configuraçoes">
+
     </header>
-    
-    <form>
-        
+
+    <form action="/templates/confirmacao.html">
+
         <p class="login" style="margin-top: 100px;">Já possui uma conta? <a href="#">Entrar</a></p>
-        <input class="input-text" type="text" placeholder="Nome e sobrenome"></input>
-        <input class="input-text" type="password" placeholder="Senha"></input>
-        <input class="input-text" type="email" placeholder="Email"></input>
+        <input class="input-text" type="text" placeholder="Nome e sobrenome" required></input>
+        <input class="input-text" type="password" placeholder="Senha" required></input>
+        <input class="input-text" type="email" placeholder="Email" required></input>
         <p class="informacao-senha">A senha deve ter 8 ou mais caracteres e ao menos 1 numero.</p>
-        <input class="input-text" type="number" placeholder="CPF"></input>
-        <input class="input-text" type="number" placeholder="Telefone"></input>
-        <input class="input-text" type="number" placeholder="Idade"></input>
+        <input class="input-text" placeholder="CPF" id="cpf" value="" onkeypress="mascaraCpf()" maxlength="14"></input>
+        <input class="input-text" placeholder="Telefone" value=""onkeypress="mascaraCel()" id="telefone" maxlength="14"></input>
+        <input class="input-text" placeholder="Idade"  maxlength="2" required></input>
         <button class="button-cadastrar" type="submit">CADASTRAR E CONTINUAR</button>
         <p class="informacao">
             Ao se casdastrar você aceita nossos Termos de Uso e Política
@@ -37,6 +40,7 @@
             receber novidades e promoções em seu e-mail.
         </p>
     </form>
+
 
 </body>
 

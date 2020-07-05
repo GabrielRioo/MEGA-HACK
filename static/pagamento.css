@@ -49,11 +49,23 @@ img.dots-vertical {
     left: 330px;
 }
 
+/* posicionando pra fora do viewport */
+.menu {
+    left: -220px;
+    transition: left .25s linear;
+ }
+ 
+ /* quando o script inserir a classe, nós retornamos o menu para a posição original */
+ .menu-active .menu {
+    left: 0;
+ }
+
 div.flex {
     display: flex;
     flex-direction: column;
     justify-content: center;
-    margin-top: 250px;
+    align-items: center;
+    margin-top: 90px;
 }
 
 form.codigo-geladeira {
@@ -64,34 +76,68 @@ form.codigo-geladeira {
     padding: 20px;
 }
 
-input {
-    width: 60px;
-    height: 60px;
-    text-align: center;
-    font-size: 25px;
+
+
+input.numero-cartao {
+    width: 22em;
+    height: 1.5em;
+    padding: 10px 10px 10px 50px;
+    border-radius: 8px;
+    border: 1px solid rgb(126, 126, 126);
+    font-size: 13px;
     color: rgb(126, 126, 126);
 }
 
-p.informacao {
-    
-    text-align: center;
-    font-size: 12px;
-    left: 25px;
-    right: 25px;
-    color: #6E7A90;
+div.grid {
+    margin-top: 30px;
+    margin-bottom: 20px;
 }
 
-button.button-confirmar {
+div.space {
+    display: grid;
+    grid-template-columns: 130px 130px;
+    gap: 4em;
+    margin-top: 60px;
+    margin-bottom: 50px;
+}
+
+p.informacao {
+    color: #475062;
+    font-size: 12px;
+    line-height: 45px;
+}
+
+p.informacao-uso {
+    color: #818181;
+    font-size: 12px;
+    text-align: center;
+}
+
+input.info-cartao_1 {
+    outline: 0;
+    border-width: 0 0 2px;
+    border-color: rgb(187, 187, 187);
+}
+
+input.info-cartao_2 {
+    outline: 0;
+    border-width: 0 0 2px;
+    border-color: rgb(187, 187, 187);
+    width: 320px;
+    margin-bottom: 50px;
+}
+
+button {
     position: absolute;
     width: 219px;
     height: 49px;
     left: 78px;
-    top: 500px;
+    top: 600px;
     border-radius: 6px;
     border: none;
     color: #fff;
     background-color: #263E7F;
-    margin-bottom: 30px;
+    margin-bottom: 40px;
 }
 
 

@@ -14,19 +14,23 @@
             <img src="/media/blue_header_small.svg" alt="Header image">
         </figure>
         <a href="/templates/selecao_ligacao.html"><img class="left-arrow" src="/media/arrow-right.svg" alt="Seta para esquerda"></a>
-        <img class="dots-vertical" src="/media/menu.svg" alt="configuraçoes">
+        <form action="/templates/selecao_logado.html">
+            <img class="dots-vertical" src="/media/menu.svg" alt="configuraçoes">
+        </form>
         
     </header>
     <div class="flex">
         <form class="codigo-geladeira">
-            <input type="number">
-            <input type="number">
-            <input type="number">
-            <input type="number">
+            <input type="number" maxlength="1">
+            <input type="number" maxlength="1">
+            <input type="number" maxlength="1">
+            <input type="number" maxlength="1">
             
         </form>
         <p class="informacao">Verifique o código da geladeira que deseja <br> comprar o produto.</p>
-        <button class="button-confirmar" type="submit">CONFIRMAR</button>
+        <form action="/templates/pagamento_realizado.html"> 
+            <button class="button-confirmar" type="submit">CONFIRMAR</button>
+        </form>
     </div>
     
     

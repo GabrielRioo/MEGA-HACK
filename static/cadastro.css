@@ -52,8 +52,8 @@ img.left-arrow {
 
 img.dots-vertical {
     position: fixed;
-    top: 18px;
-    left: 350px;
+    top: 25px;
+    left: 330px;
 }
 
 p.login {
@@ -100,6 +100,10 @@ input.input-text {
     border: 1px solid black;
     text-indent: 30px;
     margin-top: 1em;
+}
+
+input#maioridade {
+    display: none;
 }
 
 button.button-cadastrar {

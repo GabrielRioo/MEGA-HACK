@@ -7,7 +7,7 @@
     <link rel="stylesheet" href="/static/cadastro.css">
 
     <title>AMBEV</title>
-    
+
     <script src="/scripts/auto-complete.js"></script>
 </head>
 
@@ -18,8 +18,13 @@
             <figcaption></span><span>Cadastre-se</span></figcaption>
             <img src="/media/yellow_header_small.svg" alt="Header image">
         </figure>
-        <img class="left-arrow" src="/media/arrow-right.svg" alt="Seta para esquerda">
-        <img class="dots-vertical" src="/media/dots-vertical.svg" alt="configuraçoes">
+
+        <a href="/templates/selecao_ligacao.html"><img class="left-arrow" src="/media/arrow-right.svg"
+                alt="Seta para esquerda"></a>
+
+        <form action="/templates/confirmacao.html">
+            <img class="dots-vertical" src="/media/menu.svg" alt="configuraçoes">
+        </form>
 
     </header>
 
@@ -27,13 +32,14 @@
 
         <p class="login" style="margin-top: 100px;">Já possui uma conta? <a href="#">Entrar</a></p>
         <input class="input-text" type="text" placeholder="Nome e sobrenome" required></input>
-        <input class="input-text" type="password" placeholder="Senha" required></input>
         <input class="input-text" type="email" placeholder="Email" required></input>
+        <input class="input-text" type="password" placeholder="Senha" required></input>
         <p class="informacao-senha">A senha deve ter 8 ou mais caracteres e ao menos 1 numero.</p>
 
         <input class="input-text" placeholder="CPF" id="cpf" value="" onkeypress="mascaraCpf()" maxlength="14"></input>
-        <input class="input-text" placeholder="Telefone" value=""onkeypress="mascaraCel()" id="telefone" maxlength="14"></input>
-        <input class="input-text" placeholder="Idade"  maxlength="2" required></input>
+        <input class="input-text" placeholder="Telefone" value="" onkeypress="mascaraCel()" id="telefone"
+            maxlength="14"></input>
+
         <button class="button-cadastrar" type="submit">CADASTRAR E CONTINUAR</button>
 
         <p class="informacao">
@@ -42,6 +48,7 @@
             receber novidades e promoções em seu e-mail.
         </p>
     </form>
+
 
 
 </body>

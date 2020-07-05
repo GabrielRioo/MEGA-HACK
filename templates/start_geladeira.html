@@ -1,11 +1,13 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="/static/start_pontuacao.css">
+    <link rel="stylesheet" href="/static/start_geladeira.css">
     <title>AMBEV</title>
 </head>
+
 <body>
     <div class="imagens">
         <figure>
@@ -16,9 +18,14 @@
             <img src="/media/capa_geladeira.svg" alt="">
         </figure>
         <div class="flex">
-            <button type="submit">Produtos</button>
-            <button type="submit">Geladeiras proximas</button>
+            <form action="/templates/produtos.html">
+                <button type="submit">Produtos</button>
+            </form>
+            <form action="/templates/.html">
+                <button type="submit">Geladeiras proximas</button>
+            </form>
         </div>
     </div>
 </body>
+
 </html>

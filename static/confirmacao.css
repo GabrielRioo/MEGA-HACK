@@ -52,8 +52,8 @@ img.left-arrow {
 
 img.dots-vertical {
     position: fixed;
-    top: 18px;
-    right: 20px;
+    top: 25px;
+    left: 330px;
 }
 
 div {
@@ -61,11 +61,12 @@ div {
     flex-direction: column;
     justify-content: center;
     align-items: center;
+    height: 100vh;
 }
 
 p.confirmacao {
-    position: absolute;
-    top: 300px;
+   
+    margin-bottom: 50px;
     font-size: 25px;
     text-align: center;
     font-weight: bold;
@@ -74,9 +75,9 @@ p.confirmacao {
 }
 
 
+
 button.button-sim {
-    position: absolute;
-    top: 515px;
+    margin-bottom: 20px;
     width: 219px;
     height: 49px;
     border-radius: 6px;
@@ -87,11 +88,9 @@ button.button-sim {
 }
 
 button.button-nao {
-    position: absolute;
     width: 219px;
     height: 49px;
-    
-    top: 590px;
+    top: 520px;
     border-radius: 6px;
     border: none;
     color: #BC042B;

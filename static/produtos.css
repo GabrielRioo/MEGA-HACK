@@ -56,8 +56,13 @@ img.left-arrow {
 
 img.dots-vertical {
     position: fixed;
-    top: 18px;
-    left: 350px;
+    top: 25px;
+    left: 330px;
+}
+
+img.carrinho {
+    margin-top: 80px;
+    margin-left: 300px;
 }
 
 div.flex {
@@ -84,7 +89,7 @@ img.voz {
 }
 
 input.search {
-    margin-top: 130px;
+    margin-top: 20px;
     margin-bottom: 50px;
     width: 20em;
     height: 3em;

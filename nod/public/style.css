@@ -16,6 +16,42 @@ html, body {
     flex-direction: column;
     
   }
+
+  header.head {
+    position: fixed;
+    top:-14.41px;
+}
+
+figcaption {
+    position: fixed;
+    top: 20px;
+    left: 160px;
+    font-size: 25px;
+    font-weight: bold;
+    color: #FFFFFF;
+    
+}
+figure.img-header {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+figcaption span {
+    text-align: center;
+}
+
+img.left-arrow {
+    position: fixed;
+    top: 18px;
+    left: 20px;
+}
+
+img.dots-vertical {
+    position: fixed;
+    top: 18px;
+    left: 350px;
+}
   
   input {
     
@@ -36,16 +72,18 @@ html, body {
   /* Botao enviar */
   button {
     position: absolute;
-    right: 20px;
-    width: 30px;
-    height: 30px;
+    right: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 40px;
+    height: 40px;
     font-size: 14px;
-    
     text-align: center;
     line-height: 50px;
     font-weight: bold;
-    color: #FFF;
-    
+    background-color: #fff ;
+    border: none;
   }
   
   .messages {
@@ -73,11 +111,11 @@ html, body {
   button.plus {
     position: absolute;
     left: 10px;
-    bottom: 18px;
+    bottom: 5px;
     font-size: 30px;
     color: rgb(182, 182, 182);
     border:none;
-    background-color: #fff;
+    
     
     
   }

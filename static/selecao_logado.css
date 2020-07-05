@@ -34,20 +34,22 @@ div.flex {
     justify-content: center;
     align-items: center;
     height: 100vh;
-    margin-top: 80px;
+    margin-top: 100px;
 }
 
 button {
-    margin-bottom: 20px;
-    margin-top: 30px;
+    margin-bottom: 30px;
     width: 219px;
     height: 49px;
     border-radius: 6px;
     border: none;
     color: #fff;
-    background-color: #33535F;
     box-shadow: 0px 2px 5px rgb(110, 110, 110);
 }
 
+p.login {
+    font-weight: bold;
+    color: #868686;
+}
 
 

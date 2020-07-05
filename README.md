@@ -1,5 +1,7 @@
 # MEGA-HACK
 
+
+
 * Desafio AMBEV
 * Linguagem: Python, Java e C# <br><br>
 
@@ -8,17 +10,17 @@ Aplicativo voltado para interação com pessoas. Ao comprar um produto AMBEV, re
 <br>
 
 **Interface**
-- [ ] Barra de Menu
-- [ ] Pagina principal
-- [ ] Pagina para o Chat
+- [x] Barra de Menu
+- [x] Pagina principal
+- [x] Pagina para o Chat
 - [ ] Pagina de Like e Deslike
 - [ ] Pagina para o Mapa
-- [ ] Pagina de login
-- [ ] Pagina de Compras
+- [x] Pagina de login
+- [x] Pagina de Compras
 <br>
 
 **Funcionalidades:** <br>
-- [ ] Chat
+- [x] Chat
 - [ ] Loguin(autenticação)
 - [ ] Mapa para localizar as geladeiras.
 - [ ] Like e Deslike 

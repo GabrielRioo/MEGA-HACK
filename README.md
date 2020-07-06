@@ -4,6 +4,7 @@
 * Linguagem: Python, Java e C# <br><br>
 
 **RODAR O CHAT:**
+- **Por em resoluçao 620x375** (f12)
 - `start server.js`
 
 **NEW FEATURES:**
@@ -41,3 +42,4 @@ Não teria experiencia melhor para o primeiro Hackathon de todos nós sem vocês
 - Daniele Costa
 - Wellyngton
 
+Realizado em 05/07/2020

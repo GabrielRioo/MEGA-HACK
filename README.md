@@ -1,5 +1,7 @@
 # MEGA-HACK
 
+![MegaHack](megahack.png)
+
 * Desafio AMBEV
 * Linguagem: Python, Java e C# <br><br>
 

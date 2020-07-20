@@ -1,9 +1,23 @@
 # MEGA-HACK
+## 1º Lugar Desafio AMBEV
+### 6º Lugar no Geral
 
+
+
+#### Pitch: https://www.youtube.com/watch?v=RUTkjbinB9I&feature=youtu.be
+
+#### Demo: https://www.youtube.com/watch?v=qJbFwcCdHyc&feature=youtu.be
+
+**Telas Desenvolvidas por: Daniele Costa** <br>
 ![MegaHack](megahack.png)
 
-* Desafio AMBEV
-* Linguagem: Python, Java e C# <br><br>
+#### Desafio AMBEV
+**Objetivo do Aplicativo:** <br> 
+* Uma aplicativo que se comunique com uma Vending Machine. Ao fazer o pedido pelo celular, a pessoa poderá retirar na Geladeira mais proxima.
+* A Geladeira é daquelas que digita ou insere o dinheiro e sai apenas o produto.
+* Ao fazer a primeira compra é habilitado no aplicativo a opção de Meeting.
+* O Meeting é similar ao Tinder, porem com alguns diferenciais, e com outro objetivo. O diferencial é que ao inves de formar matchs individuais, pode optar por match em grupo. Caso forme grupo com 3 ou mais pessoas, ganha-se descontos em produtos AMBEV ou até mesmo em outros produtos, a combinar, com o bar na qual eles vão.
+<br>
 
 **RODAR O CHAT:**
 - **Por em resoluçao 620x375** (f12)
@@ -15,9 +29,7 @@
 - Pagamento funcionando
 - Autenticaçao de Cadastro
 
-**Objetivo do Aplicativo:** <br> 
-Aplicativo voltado para interação com pessoas. Ao comprar um produto AMBEV, redireciona para um chat no aplicativo onde se pode formar um grupo com pessoas de sua localidade para se juntarem e receber descontos por pessoa, em algum bar.
-<br>
+
 
 **Interface**
 - [x] Barra de Menu
@@ -36,12 +48,13 @@ Aplicativo voltado para interação com pessoas. Ao comprar um produto AMBEV, re
 - [ ] Like e Deslike 
 - [ ] Mostrar pessoa individual ou pessoa em grupo (fotinho de cada)
 
-Agradecimento especial ao Time 24:
-Não teria experiencia melhor para o primeiro Hackathon de todos nós sem vocês, trabalhar com vocês foi fod* hehehe <3
-- Gabriel Rio
-- Nathalia Viana
-- Eder Filho
-- Daniele Costa
-- Wellyngton
+**Agradecimento especial ao Time 24:**
+_Não teria experiencia melhor para o primeiro Hackathon de todos nós sem vocês, trabalhar com vocês foi fod* hehehe <3_
+- Gabriel Rio (Developer Front-end)
+- Nathalia Viana (Business)
+- Eder Filho (Developer Back-end)
+- Daniele Costa (Designer UX/UI)
+- Wellyngton (Marketing)
 
-Realizado em 05/07/2020
+Realizado em 05/07/2020 <br> 
+![certificado](GabrielRio.png)

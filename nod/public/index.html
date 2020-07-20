@@ -12,18 +12,32 @@
     <link rel="stylesheet" href="style.css">
 </head>
 <body>
+    <header class="head">
+        <figcaption></span><span>Chat</span></figcaption>
+        <figure class="img-header">
+            <img src="" alt="">
+            <img src="/media/pink_header_small.svg" alt="Header image">
+        </figure>
+        <a href="/templates/start_meeting.html "><img class="left-arrow" src="/media/arrow-right.svg" alt="Seta para esquerda"></a>
+        <img class="dots-vertical" src="/media/dots-vertical.svg" alt="configuraçoes">
+
+    </header>
     <form id="chat">
+        
         <input type="text" name="username" placeholder="Digite seu Usuário">
         <div class="messages"></div>
-        <input type="text" name="message" placeholder="Digite sua Mensagem">
-        <button type="submit">Enviar</button>
+        <div class="write">
+            <input class="size-input" type="text" name="message" placeholder="Digite sua Mensagem">
+            <button type="submit"><img src="/media/botao_enviar.svg" alt=""></button>
+            <button class="plus"><img src="/media/plus.svg" alt=""></button>
+        </div>
     </form>
 
     <script type="text/javascript">
     var socket = io('http://localhost:3000');
 
     function renderMessage(message) {
-        $('.messages').append('<div class="message"><strong>'+ message.author +'</strong>: '+ message.message +'</div');
+        $('.messages').append('<div class="message"><strong>'+ message.author +'</strong>: '+ message.message +' </div>');
     }
 
     socket.on('receivedMessage', function(message) {

@@ -1,0 +1,55 @@
+:hoot {
+    --red: #BC042B;
+    --yellow: #F7981D;
+    --blue: #21409A;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: 0;
+}
+
+a {
+    color: #F7981D;
+    font-weight: bold;
+    text-decoration: none;
+}
+
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    
+}
+
+header.head {
+    position: fixed;
+    top:-14.41px;
+    
+    
+}
+
+div.flex {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin-top: 100px;
+}
+
+button {
+    margin-bottom: 30px;
+    width: 219px;
+    height: 49px;
+    border-radius: 6px;
+    border: none;
+    color: #fff;
+    box-shadow: 0px 2px 5px rgb(110, 110, 110);
+}
+
+p.login {
+    font-weight: bold;
+    color: #868686;
+}
+
+

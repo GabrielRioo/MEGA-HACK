@@ -14,32 +14,123 @@ html, body {
     justify-content: center;
     align-items: center;
     flex-direction: column;
+    
   }
+
+  header.head {
+    position: fixed;
+    top:-14.41px;
+}
+
+figcaption {
+    position: fixed;
+    top: 20px;
+    left: 160px;
+    font-size: 25px;
+    font-weight: bold;
+    color: #FFFFFF;
+    
+}
+figure.img-header {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+figcaption span {
+    text-align: center;
+}
+
+img.left-arrow {
+    position: fixed;
+    top: 18px;
+    left: 20px;
+}
+
+img.dots-vertical {
+    position: fixed;
+    top: 18px;
+    left: 350px;
+}
   
   input {
-    width: 600px;
+    
+    width: 300px;
     border: 1px solid #ddd;
     height: 50px;
-    padding: 0 20px;
+    padding: 0 50px;
     font-size: 14px;
+    border-radius: 15px;
+    
+  }
+
+  input.size-input {
+    
+    width: 330px;
   }
   
+  /* Botao enviar */
   button {
-    width: 600px;
-    height: 50px;
+    position: absolute;
+    right: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 40px;
+    height: 40px;
     font-size: 14px;
-    background: #069;
     text-align: center;
     line-height: 50px;
     font-weight: bold;
-    color: #FFF;
-    margin-top: 10px;
+    background-color: #fff ;
+    border: none;
   }
   
   .messages {
-    width: 600px;
+    width: 300px;
     height: 400px;
     margin: 20px 0;
-    border: 1px solid #ddd;
     padding: 20px;
+    color: #ddd;
   }
+  .message {
+    margin-bottom: 30px;
+    background-color: #33535F;
+    padding: 10px;
+    border-radius: 15px;
+  }
+
+  div.write {
+    position: relative;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    
+  }
+
+  button.plus {
+    position: absolute;
+    left: 10px;
+    bottom: 5px;
+    font-size: 30px;
+    color: rgb(182, 182, 182);
+    border:none;
+    
+    
+    
+  }
+
+  /* corrigir aqui, nao esta aparecendo a foto */
+  span#plus {
+    
+    background-image: url('/media/plus.svg') no-repeat;
+    width: 10px;
+    height: 10px;
+
+  }
+
+  /* form {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  } */

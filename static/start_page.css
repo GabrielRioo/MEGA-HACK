@@ -1,0 +1,39 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: 0;
+}
+
+figure {
+    margin-bottom: 30px;
+}
+
+body {
+    background-color: #F7981D;
+    height: 100vh;
+}
+
+div.imagens {
+    height: 100vh;
+    margin-top: 40px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+a {
+    text-decoration: none;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 219px;
+    height: 49px;
+    border-radius: 6px;
+    border: none;
+    color: #596273;
+    border: 1px solid #596273 ;
+    background-color: #FFFFFF;
+}
+
+

@@ -1,0 +1,146 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: 0;
+}
+body{
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+a {
+    color: #BC042B;
+    font-weight: bold;
+    text-decoration: none;
+}
+
+header.head {
+    position: fixed;
+    top:-14.41px;
+}
+
+figcaption {
+    position: fixed;
+
+    top: 20px;
+    font-size: 20px;
+    font-weight: bold;
+    color: #FFFFFF;
+    
+}
+figure.img-header {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+figcaption span {
+    text-align: center;
+}
+
+img.left-arrow {
+    position: fixed;
+    top: 18px;
+    left: 20px;
+}
+
+img.dots-vertical {
+    position: fixed;
+    top: 25px;
+    left: 330px;
+}
+
+/* posicionando pra fora do viewport */
+.menu {
+    left: -220px;
+    transition: left .25s linear;
+ }
+ 
+ /* quando o script inserir a classe, nós retornamos o menu para a posição original */
+ .menu-active .menu {
+    left: 0;
+ }
+
+div.flex {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-top: 90px;
+}
+
+form.codigo-geladeira {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    margin-top: 10px;
+    padding: 20px;
+}
+
+
+
+input.numero-cartao {
+    width: 22em;
+    height: 1.5em;
+    padding: 10px 10px 10px 50px;
+    border-radius: 8px;
+    border: 1px solid rgb(126, 126, 126);
+    font-size: 13px;
+    color: rgb(126, 126, 126);
+}
+
+div.grid {
+    margin-top: 30px;
+    margin-bottom: 20px;
+}
+
+div.space {
+    display: grid;
+    grid-template-columns: 130px 130px;
+    gap: 4em;
+    margin-top: 60px;
+    margin-bottom: 50px;
+}
+
+p.informacao {
+    color: #475062;
+    font-size: 12px;
+    line-height: 45px;
+}
+
+p.informacao-uso {
+    color: #818181;
+    font-size: 12px;
+    text-align: center;
+}
+
+input.info-cartao_1 {
+    outline: 0;
+    border-width: 0 0 2px;
+    border-color: rgb(187, 187, 187);
+}
+
+input.info-cartao_2 {
+    outline: 0;
+    border-width: 0 0 2px;
+    border-color: rgb(187, 187, 187);
+    width: 320px;
+    margin-bottom: 50px;
+}
+
+button {
+    position: absolute;
+    width: 219px;
+    height: 49px;
+    left: 78px;
+    top: 600px;
+    border-radius: 6px;
+    border: none;
+    color: #fff;
+    background-color: #263E7F;
+    margin-bottom: 40px;
+}
+
+
+
+
+

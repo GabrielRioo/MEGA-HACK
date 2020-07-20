@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="/static/cadastro.css">
+
+    <title>AMBEV</title>
+
+    <script src="/scripts/auto-complete.js"></script>
+</head>
+
+<body>
+    <header class="head">
+        <figure class="img-header">
+
+            <figcaption></span><span>Cadastre-se</span></figcaption>
+            <img src="/media/yellow_header_small.svg" alt="Header image">
+        </figure>
+
+        <a href="/templates/selecao_ligacao.html"><img class="left-arrow" src="/media/arrow-right.svg"
+                alt="Seta para esquerda"></a>
+
+        <form action="/templates/selecao_logado.html">
+            <img class="dots-vertical" src="/media/menu.svg" alt="configuraçoes">
+        </form>
+
+    </header>
+
+    <form action="/templates/confirmacao.html">
+
+        <p class="login" style="margin-top: 100px;">Já possui uma conta? <a href="/templates/login.html">Entrar</a></p>
+        <input class="input-text" type="text" placeholder="Nome e sobrenome" required></input>
+        <input class="input-text" type="email" placeholder="Email" required></input>
+        <input class="input-text" type="password" placeholder="Senha" required></input>
+        <p class="informacao-senha">A senha deve ter 8 ou mais caracteres e ao menos 1 numero.</p>
+
+        <input class="input-text" placeholder="CPF" id="cpf" value="" onkeypress="mascaraCpf()" maxlength="14"></input>
+        <input class="input-text" placeholder="Telefone" value="" onkeypress="mascaraCel()" id="telefone"
+            maxlength="14"></input>
+
+        <button class="button-cadastrar" type="submit">CADASTRAR E CONTINUAR</button>
+
+        <p class="informacao">
+            Ao se casdastrar você aceita nossos Termos de Uso e Política
+            de Privacidade, confrma ter ao menos 18 anos de idade, e irá
+            receber novidades e promoções em seu e-mail.
+        </p>
+    </form>
+
+
+
+</body>
+
+</html>

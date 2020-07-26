@@ -49,7 +49,7 @@
 - [ ] Mostrar pessoa individual ou pessoa em grupo (fotinho de cada)
 
 **Agradecimento especial ao Time 24:**
-_Não teria experiencia melhor para o primeiro Hackathon de todos nós sem vocês, trabalhar com vocês foi fod* hehehe <3_
+_Não teria experiencia melhor para o primeiro Hackathon de todos nós sem vocês, melhor equipe que essa, impossivel hehe <3_
 - Gabriel Rio (Developer Front-end)
 - Nathalia Viana (Business)
 - Eder Filho (Developer Back-end)
